@@ -34,7 +34,7 @@ function Mvp() {
         </section>
         <section>
           <div className="key">
-            <p>Category: chemistry, </p>
+            <p>Category: chemistry </p>
             <p className="year">Year: 1980 , 1962 </p>
             <h3>Laureate:</h3>
             <div className="flaure">
