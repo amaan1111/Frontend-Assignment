@@ -1,0 +1,112 @@
+html {
+  background-color: rgb(102, 196, 157);
+}
+h1 {
+  font-family: cursive;
+  text-decoration: underline;
+  text-align: center;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex: 0 0 25%;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px;
+}
+.key {
+  width: 400px;
+  background-color: rgb(226, 232, 235);
+  padding: 14px;
+}
+h3 {
+  text-decoration: underline;
+  font: medium;
+}
+.laure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+}
+.id {
+  margin-block-end: 4px;
+  background-color: white;
+  color: rgb(36, 121, 114);
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+}
+.year {
+  font-style: italic;
+}
+.fn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: cursive;
+}
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+select {
+  background-image: linear-gradient(
+      45deg,
+      transparent 50%,
+      rgb(128, 128, 128) 50%
+    ),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    radial-gradient(#ddd 70%, transparent 72%);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), calc(100% - 0.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1.5em 1.5em;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-color: white;
+  border: thin solid blue;
+  border-radius: 4px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select:focus {
+  background-image: linear-gradient(
+      45deg,
+      rgb(114, 228, 165) 50%,
+      transparent 50%
+    ),
+    linear-gradient(135deg, transparent 50%, rgb(77, 228, 122) 50%),
+    radial-gradient(rgb(76, 150, 199) 70%, transparent 72%);
+  background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em,
+    calc(100% - 0.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1.5em 1.5em;
+  background-repeat: no-repeat;
+  border-color: green;
+  outline: 0;
+}
+button {
+  font-size: 16px;
+  font-weight: bold;
+  border-width: 0.5px;
+  font-family: cursive;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(51, 199, 179);
+  padding: 10px;
+  float: right;
+}
