@@ -35,7 +35,7 @@ function Home() {
       </Link>
 
       <div>
-        <h2>Pick a year:</h2>
+        <h2>Filter by year:</h2>
         <select id="yearSelect" onChange={(e) => setPrizeYear(e.target.value)}>
           <option value="" key="none">
             All Years
@@ -73,7 +73,7 @@ function Home() {
         )}
       </section>
       <div>
-        <h2>Pick a Category:</h2>
+        <h2>Filter by Category:</h2>
         <select
           id="yearSelect"
           onChange={(e) => setPrizeCategory(e.target.value)}
